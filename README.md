@@ -28,8 +28,16 @@ npm install
 
 3. Run in development:
 
+To start the app
+
 ```bash
 npm run dev
+```
+
+To start the server
+
+```bash
+npx @upstash/qstash-cli dev
 ```
 
 4. The server will start on the port specified in your environment config (default: `3000`).
